@@ -11,7 +11,7 @@ def get_edit_distance(read):
 
 	for ReadTagsEntry in read.tags:
 		if 'NM' in ReadTagsEntry:
-			if ReadTagsEntry[1] < max_edit_distance:
+			if ReadTagsEntry[1] <= max_edit_distance:
 				return 1
 
 			else:
