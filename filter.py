@@ -3,8 +3,10 @@ import sys
 import os
 import os.path
 
-min_alignment_score = 5
-max_edit_distance = 3
+## VARIABLES TO EDIT ##
+min_alignment_score = 5 # alignment score
+max_edit_distance = 3 # edit distance
+## VARIABLES TO EDIT END ##
 
 def get_edit_distance(read):
 	intags = read.tags
