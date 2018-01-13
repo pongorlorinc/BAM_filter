@@ -3,11 +3,11 @@ A script to filter reads based on certain stats (no. of mismatches, alignment qu
 
 Usage: python filter.py \<input BAM\> \<output BAM\>
   
-## Defaults (modify script to change value): 
+## Variables (modify script to change value): 
 * minimum alignment score: 5
 * max edit distance: 3
     
-## Filters (additional):
+## Filters (defaults):
 * removes duplicates
 * removes if read pair is on different chromosome
 * removes reads with no CIGAR code 
