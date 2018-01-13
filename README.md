@@ -1,7 +1,7 @@
 # BAM_filter
 A script to filter reads based on certain stats (no. of mismatches, alignment qual)
 
-Usage: python filter.py <input BAM> <output BAM>
+Usage: python filter.py \<input BAM\> \<output BAM\>
   
 ## Defaults (modify script to change value): 
 * minimum alignment score: 5
